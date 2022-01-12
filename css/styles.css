@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora&family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Otras clases */
+
+header {
+    height: 100vh;
+    background-image: url("../img/anthony-delanoix-RokFUDqlTIo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-1 {
+    background-image: url("../img/felipe-prieto-_04F5VhvvwQ-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-2 {
+    background-image: url("../img/nicolas-flor-XyenAtVdDrM-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-3 {
+    background-image: url("../img/sawyer-bengtson-umRPY9w3q1c-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-4 {
+    background-image: url("../img/hector-j-rivas-OfMMPQWwhW8-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url("../img/jimmy-chang-F0mLio79ye4-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url("../img/paulina-jadeszko-uQPuGEvhLhg-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url("../img/sergi-ferrete-Q30KtoAPzYc-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-s {
+    padding: 0.5%;
+}
+
+.back-white {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    #caja-10 {
+        width: 100%;
+    }
+    .column-nav {
+        width: 100%;
+    }
+    .column-75 {
+        width: 100;
+    }
+}
